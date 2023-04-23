@@ -1,0 +1,7 @@
+//Instalación package.json
+npm init --yes
+//Instalación modulo
+npm i express socket.io
+//-D porque el proyecto no depende de este módulo
+npm i nodemon -D
+//dev se ejecuta con npm run para que se actualice automáticamente el servidor cuando se modifica
